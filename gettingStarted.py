@@ -25,20 +25,23 @@ if __name__ == "__main__":
 
 #Questions:
 if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-    answer = "mTCP"
-if question == "Are encoding and encryption the same? - Yes/No":
-    answer = "No"
-if question == "Is it possible to decrypt a message without a key? - Yes/No":
-    answer = "No"
-if question == "Is it possible to decode a message without a key? - Yes/No":
-    answer = "Yes"
-if question == "Is a hashed message supposed to be un-hashed? - Yes/No":
-    answer = "No"
-if question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
-    answer = ""
-if question == "Is MD5 a secured hashing algorithm? - Yes/No":
-    answer ="Yes"
-if question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-    answer = "7"
-if question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-    answer = "3"
+    print ("answer: str = "mTCP"")
+elif question == "Are encoding and encryption the same? - Yes/No":
+    print ("answer = "No"")
+elif question == "Is it possible to decrypt a message without a key? - Yes/No":
+    print ("answer = "No"")
+elif question == "Is it possible to decode a message without a key? - Yes/No":
+    print ("answer = "Yes"")
+elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+    print ("answer = "No"")
+elif question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
+    print ("answer = """)
+elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
+    print ("answer ="Yes"")
+elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
+    print ("answer = "7"")
+elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
+    print("answer = "3"")
+else:
+    print (welcome_assignment_answers(debug_question))
+return(answer)
